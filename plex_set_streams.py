@@ -100,8 +100,8 @@ def applySelectedStream(season_num, episode_num, index, s_type):
     else:
         e.media[0].parts[0].setDefaultAudioStream(e.audioStreams()[index].id)
 
-
-main()
+if __name__=="__main__":
+    main()
 
 
 
